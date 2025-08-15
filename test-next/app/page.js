@@ -9,5 +9,5 @@ export default function Home() {
       <h2>Texto descritivo</h2>
       < Galera/>
     </div>
-  );
+  )
 }
