@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <h2>Texto descritivo</h2>
-      < Galera/>
+      <Galera/>
     </div>
   )
 }
