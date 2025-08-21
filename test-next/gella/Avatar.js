@@ -1,4 +1,4 @@
-function Avatar() {
+export function Avatar() {
   return (
     <img
       className="avatar"
