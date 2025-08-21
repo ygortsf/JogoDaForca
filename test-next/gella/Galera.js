@@ -5,4 +5,4 @@ export function Galera() {
       alt="Lady Gaga"
     />
   );
-}
+}   
