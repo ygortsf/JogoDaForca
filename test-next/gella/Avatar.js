@@ -1,7 +1,7 @@
 export function Avatar() {
   return (
     <img
-      className="avatar"
+      class="avatar"
       src="https://i.imgur.com/1bX5QH6.jpg"
       alt="Lin Lanying"
       width={100}
