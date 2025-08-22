@@ -1,11 +1,16 @@
-export function Avatar() {
+import {getImageUrl} from "./util";
+
+export function Avatar({person,size}) {
+
   return (
-    <img
-      class="avatar"
-      src="https://i.imgur.com/1bX5QH6.jpg"
-      alt="Lin Lanying"
-      width={100}
-      height={100}
+      <img
+      className="avatar"
+      src={getImageUrl(person)}
+      alt={person.name}
+      width={size}
+      height={size}
     />
-  );
+  )
+ 
+
 }

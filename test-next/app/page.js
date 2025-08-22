@@ -10,6 +10,10 @@ export default function Home() {
       <h2>Texto descritivo</h2>
       <Galera/>
       <Avatar/>
+       <Avatar
+      person={{ name: 'Lin Lanying', imageId: '1bX5QH6' }}
+      size={100}
+    />
     </div>
   )
 }
