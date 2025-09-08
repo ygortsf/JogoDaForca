@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+img{
+  border-radius: 30%;
+}
+
+img:hover{
+  transform: scale(1.02);
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px red;
+}
+
+
+#forca{
+  border-radius: 50%;
+}
