@@ -1,7 +1,7 @@
 export function Sobre(){
     return(
         <> 
-        <p>iaer</p>
+        <p>iaer carai</p>
         </>
     );
 }
