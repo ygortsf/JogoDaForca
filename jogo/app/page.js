@@ -1,22 +1,12 @@
-import Link from "next/link";
-
+import Hangman from "@/component/Hangman";
 
 export default function Home() {
-
-
   return (
-    <div>
-      <div className="bg-red-900 ">
-        <h1 className=" text-4xl justify-center font-bold text-gray-900">ola</h1>
-      </div>
-      
-      <Link href="menu">
-        <button className="my-50 text-red-500 bg-gray-900 p-4">
-          Play
-        </button>
-      </Link>
-
-    </div>
-
+    <main className="w-full max-w-2xl bg-white shadow-lg rounded-2xl p-6">
+      <h1 className="text-3xl font-bold text-center mb-6 text-blue-700">
+        🎯 Jogo da Forca
+      </h1>
+      <Hangman />
+    </main>
   );
 }
