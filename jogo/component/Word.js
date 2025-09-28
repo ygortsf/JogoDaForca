@@ -6,7 +6,7 @@ export default function Word({ word, guessed }) {
           key={i}
           className={`border-b-2 w-8 text-center font-bold 
             ${guessed.includes(letter) 
-              ? "text-gray-900 border-gray-700"   // letras adivinhadas: bem escuras
+              ? "text-gray-900 border-gray-700"   
               : "text-gray-400 border-gray-400"}  // ainda não adivinhadas: mais apagadas
           `}
         >
